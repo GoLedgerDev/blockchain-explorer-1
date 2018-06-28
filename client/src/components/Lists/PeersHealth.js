@@ -13,6 +13,7 @@ export default class PeersHealth extends Component {
     constructor(props) {
         super(props);
         console.log(JSON.stringify(props));
+        this.state = {peerStatus : props.peerStatus};
     }
 
     componentWillMount(){
