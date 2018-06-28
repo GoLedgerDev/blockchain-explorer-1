@@ -11,7 +11,7 @@ import { get } from '../../services/request.js';
 export default class PeersHealth extends Component {
 
     state = {
-        peerStatus : props.peerStatus
+        peerStatus : this.props.peerStatus
     };
 
     componentWillMount(){
